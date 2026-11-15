@@ -4,15 +4,11 @@
 
 
 ## Como funciona
-O agente representado por personagem de jogo 2d **pac-man**, precisa achar um caminho no labirinto,  usando método aprendizado por reforço(reinforcement learning) 
-a cada passo ele recebe -1 porém, +1 ponto cada bolinha adquirida. Caso esbarre em fantasma o total de pontos são de 100 falhando e realizando outra tentativa. a saída representada por cereja
-representa +100 com isso  considera que ganhou
+O agente representado por personagem de jogo 2d **pac-man**, precisa achar um caminho no labirinto,  usando método aprendizado por reforço (reinforcement learning), 
+a cada passo ele recebe **-1**, **+1** ponto cada bolinha adquirida, cereja é 100+ indicando ganho da rodada.
+Objeto de eliminação fantasma o total de pontos 
 
 <img width="400" height="250" alt="pac" src="https://github.com/user-attachments/assets/86424d2a-4a7a-4356-99b2-1db18be74bf0" />
-
-
-
-
 
 - A: Action (ação). O que o agente decide fazer.
 - R: Reward (recompensa). O sinal que diz se a ação foi boa ou ruim.
