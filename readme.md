@@ -3,40 +3,18 @@
  <img alt="Notebook" src="https://img.shields.io/badge/jupyter-notebook-E0234E?logo=jupyter&logoColor=white" /> <img alt="Python" src="https://img.shields.io/badge/python-3.x-3776AB?logo=python&logoColor=white" />
 
 
-## Como funciona
-O agente representado por personagem de jogo 2d **pac-man**, precisa achar um caminho no labirinto,  usando método aprendizado por reforço (reinforcement learning), 
-a cada passo ele recebe **-1**, **+1** ponto cada bolinha adquirida, cereja é 100+ indicando ganho da rodada.
-Objeto de eliminação fantasma o total de pontos 
+## Como funciona 
+O agente representado pelo personagem *pacman* precisa descobrir o melhor caminho que está demonstrado pela a frutinha para conseguir passar da fase, esse método conhecido que estabelicido reinforcement learning (aprendizado por reforço)
 
 <img width="400" height="250" alt="pac" src="https://github.com/user-attachments/assets/86424d2a-4a7a-4356-99b2-1db18be74bf0" />
 
+-----------------------------------------------
 - A: Action (ação). O que o agente decide fazer.
 - R: Reward (recompensa). O sinal que diz se a ação foi boa ou ruim.
 - S′: Next state. O estado seguinte, depois da ação.
 - π: Policy (política). A regra que escolhe a ação em cada estado.
 - γ: Discount factor. O peso do futuro, entre 0 e 1.
-
-## Tabela 
-
-| Situação | Recompensa |
-|---|---|
-| Passo normal | -1 |
-| Parede ou borda | -5 |
-| Bolinha (só na 1ª vez no episódio) | +2 |
-| Fantasma | -100 (fim) |
-| Cereja | +100 (fim) |
-
-## Parâmetros principais
-
-| Parâmetro | Valor | Significado |
-|---|---|---|
-| `alpha` | 0.2 | taxa de aprendizado |
-| `gamma` | 0.5 | peso do futuro |
-| `epsilon` / `epsilon_min` | 1.0 / 0.001 | exploração inicial / mínima |
-| `decay` | 0.998 | quanto o epsilon diminui por episódio |
-| `N_EPISODES` | 3000 | tentativas de treino |
-| `MAX_STEPS` | 400 | limite de passos por tentativa |
-| `PELLET_BONUS` | 3 | bônus ao comer bolinha |
+-----------------------------------------------
 
 ## Como rodar
 
