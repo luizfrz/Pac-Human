@@ -4,9 +4,10 @@
 
 
 ## Como funciona 
-O agente representado pelo personagem *pacman* precisa descobrir o melhor caminho que está demonstrado pela a frutinha para conseguir passar da fase, esse método conhecido que estabelicido reinforcement learning (aprendizado por reforço)
+O agente representado pelo personagem *pacman* precisa descobrir o melhor caminho que está demonstrado pela a frutinha para conseguir passar da fase, esse método conhecido reinforcement learning (aprendizado por reforço)
 
 <img width="400" height="250" alt="pac" src="https://github.com/user-attachments/assets/86424d2a-4a7a-4356-99b2-1db18be74bf0" />
+
 
 -----------------------------------------------
 - A: Action (ação). O que o agente decide fazer.
@@ -30,7 +31,7 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-### Rode notebook
+### Rode Ambiente
 ```bash
 jupyter notebook 
 ```
